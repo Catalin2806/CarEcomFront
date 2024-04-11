@@ -1,0 +1,42 @@
+.error-message {
+  color: red;
+  margin-top: 5px; /* or any space you want */
+  background-color: white;
+  border-radius: 4px;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/carHeader.jpg');
+  background-position: center center; /* Center the image horizontally and vertically */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 100% auto; /* Stretch the image to the full container width */
+  padding: 18rem 0; /* Adjust padding as needed */
+}
+
+.vin-input-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 50%; /* Adjust this to your preference */
+  max-width: 500px; /* Set a max-width if necessary */
+}
+
+.vin-input {
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  width: 100%; /* Make the input fill the width of its container */
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}
